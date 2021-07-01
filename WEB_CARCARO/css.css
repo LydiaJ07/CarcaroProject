@@ -1,0 +1,268 @@
+@font-face {
+    font-family: 'NanumSquareRound';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/NanumSquareRound.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    margin: 0px;
+    /* font-family: 'IBMPlexSansKR-Regular'; */
+    font-family: 'NanumSquareRound';
+}
+
+#body_entire_wrap{
+    width: 100%;
+}
+
+#body1_wrap {
+    width: auto;
+    background-color: #CEE5D0;
+    padding: 10px;
+}
+
+#body2_wrap {
+    width: auto;
+    background-color: rgb(230, 230, 230);
+    padding: 10px;
+    padding-bottom: 50px;
+}
+
+#msg_wrap {
+    display: block;
+    width: auto;
+    padding: 8px;
+    margin-bottom: 35px;
+}
+
+.msg_location {
+    padding: 4px;
+    margin-bottom: 4px;
+}
+
+#weather_msg_wrap,
+#traffic_msg_wrap {
+    display: block;
+}
+
+.msg_box {
+    display: inline-block;
+    border-radius: 10px;
+    background-color: white;
+    width: fit-content;
+    padding: 8px;
+    padding-left: 12px;
+    padding-right: 12px;
+    margin: 4px;
+    font-weight: 500;
+}
+
+#time {
+    font-size: 14px;
+    padding-right: 4px;
+}
+
+#title {
+    font-size: larger;
+    font-weight: 800;
+}
+
+.body2_title {
+    padding: 8px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+/* 그래프1 */
+#graph_wrap {
+    margin-left: 10px;
+    margin-top: 10px;
+    border-radius: 10px;
+    background-color: white;
+    width: 1060px;
+    overflow-x: hidden;
+
+}
+
+#graph_wrap .ratio {
+    padding-top: 40px;
+    overflow-x: hidden;
+    margin-bottom: 0px;
+}
+
+#graph_wrap .ratio li {
+    float: left;
+    position: relative;
+    width: 10px;
+    height: 200px;
+    margin-right: 32px;
+    list-style: none;
+}
+
+#graph_wrap .ratio div {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom: none;
+    background-color: rgb(208, 213, 224);
+    width: 10px;
+}
+
+#graph_wrap .ratio em {
+    position: absolute;
+    top: -20px;
+    left: -1px;
+    width: 100%;
+    font-size: 10px;
+    text-align: center;
+}
+
+#graph_wrap #footer_wrap {
+    width: 1009.2px;
+    padding: 2px;
+    margin-left: 33px;
+}
+
+#graph_wrap #footer_wrap span {
+    font-size: 12px;
+    margin-right: 18px;
+}
+
+#graph_wrap #footer_wrap span:nth-child(n+11) {
+    font-size: 12px;
+    margin-right: 11px;
+}
+
+#graph_wrap #graph_unit {
+    color: gray;
+    font-size: 12px;
+    text-align: right;
+    padding-right: 20px;
+}
+
+/* 그래프2 */
+
+
+#graph2_wrap {
+    margin-left: 10px;
+    margin-top: 10px;
+    border-radius: 10px;
+    background-color: white;
+    width: 350px;
+    overflow-x: hidden;
+
+}
+
+#graph2_wrap .ratio {
+    padding-top: 40px;
+    overflow-x: hidden;
+    margin-bottom: 0px;
+}
+
+#graph2_wrap .ratio li {
+    float: left;
+    position: relative;
+    width: 10px;
+    height: 200px;
+    margin-right: 32px;
+    list-style: none;
+}
+
+#graph2_wrap .ratio div {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom: none;
+    background-color: rgb(208, 213, 224);
+    width: 10px;
+}
+
+#graph2_wrap .ratio em {
+    position: absolute;
+    top: -20px;
+    left: -1px;
+    width: 100%;
+    font-size: 10px;
+    text-align: center;
+}
+
+#graph2_wrap #footer_wrap {
+    width: 1009.2px;
+    padding: 2px;
+    margin-left: 35px;
+}
+
+#graph2_wrap #footer_wrap span {
+    font-size: 12px;
+    margin-right: 26px;
+}
+
+
+#graph2_wrap #graph_unit {
+    color: gray;
+    font-size: 12px;
+    text-align: right;
+    padding-right: 20px;
+}
+
+#body2_msg_wrap {
+    display: block;
+    margin-left: 10px;
+    overflow-x: hidden;
+}
+
+.body2_count_box {
+    display: inline-block;
+    border-radius: 10px;
+    background-color: white;
+    width: 140px;
+    padding: 20px;
+    padding-left: 40px;
+    padding-right: 5px;
+    margin-right: 5px;
+    font-weight: 600;
+    overflow-x: hidden;
+}
+
+.body2_count_box:first-child {
+    width: 200px;
+}
+
+
+
+
+.body2_msg_box {
+    /* display: inline-block; */
+    border-radius: 10px;
+    background-color: white;
+    width: 800px;
+    padding: 20px;
+    margin-right: 5px;
+    font-weight: 500;
+    overflow-x: hidden;
+    margin-bottom: 5px;
+}
+
+hr{
+    position: relative;
+    width: 1000px;
+    padding-left: 20px;
+    border-top: 1px solid rgb(179, 179, 179);
+    align: left;
+    margin: 20px;
+}
+
+.info_box {
+    display: inline-block;
+    border-radius: 10px;
+    background-color: white;
+    width: 300px;
+    padding: 20px;
+    margin-right: 5px;
+    font-weight: 500;
+    overflow-x: hidden;
+}
